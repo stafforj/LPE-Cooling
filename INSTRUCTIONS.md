@@ -31,10 +31,13 @@ A total of six components from the cooling system are 3D printed (FDM) parts. Th
 
 To be added. 
 
+![Bonding construction](./Images/FDM-vessel-bonding.png)
 
-## Assembly of Liquid Phase Exfoliation Cooling System 
+![Barebones without EPDM cylinders](./Images/barebones-with-pipette.png)
 
 ![Component breakdown](./Images/all-vessel-components.png)
+
+## Assembly of Liquid Phase Exfoliation Cooling System 
 
 ### Steps 1-4: Cooling jacket assembly
 
