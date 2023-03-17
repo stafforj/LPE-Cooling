@@ -6,6 +6,8 @@ To be added.
 
 Draw schematic of cooling process and insert here.
 
+Link to `Thermocouple-Datalogger` repository for temperature data aquisition.
+
 
 ## Bill of Materials
 
