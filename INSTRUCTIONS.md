@@ -25,7 +25,7 @@ Draw schematic of cooling process and insert here.
 
 ### CAD files
 
-To be added.
+A total of six components from the cooling system are 3D printed (FDM) parts. The CAD (.stl) files for printing these parts are located in the repository within the folder `./CAD/`.
 
 ### Construction
 
