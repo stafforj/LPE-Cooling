@@ -59,7 +59,7 @@ To be added.
 
 ### Step 7: Cooling jacket closure
 
-To be added.
+To be added. Connection of pump tubes for coolant circulation.
 
 ![Top insertion](./Images/pre-test-assembly-close-vessel.png)
 
