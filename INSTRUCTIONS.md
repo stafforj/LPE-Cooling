@@ -29,7 +29,7 @@ A total of six components from the cooling system are 3D printed (FDM) parts. Th
 
 ### Construction
 
-To be added. 
+To be added. Figure comparing conformally coated FDM to standard PETG.
 
 ![Bonding construction](./Images/FDM-vessel-bonding.png)
 
