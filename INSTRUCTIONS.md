@@ -23,28 +23,22 @@ Thermocouples measure temperature at a junction between two dissimilar metals/co
 
 ### CAD files
 
-A schematic of the connections between the MAX31855 amplifier pins (3) and the Raspberry PI GPIO pins is shown below. The thermocouple HAT has been designed to operate using software SPI.
-
-![Circuit schematic](./Images/TC-HAT-Schematic.png)
-
-The thermocouple amplifiers, wiring connections, and RPi header connection were soldered to the prototype PCB, creating a thermocouple HAT for three Type K thermocouples.
-
-![Thermocouple HAT for RPi](./Images/amplifiers-to-HAT-wiring.png)
+To be added.
 
 ### Construction
 
-The thermocouple HAT is then connected directly to the RPi GPIO header.
-
-![Thermocouple HAT on RPi](./Images/TC-HAT-on-pi.png)
+To be added. 
 
 
 ## Assembly of Liquid Phase Exfoliation Cooling System 
+
+![Component breakdown](./Images/all-vessel-components.png)
 
 ### Steps 1-4: Cooling jacket assembly
 
 To be added.
 
-![Component breakdown](./Images/all-vessel-components.png)
+![Assembling jacket](./Images/pre-test-assembly.png)
 
 ### Step 5: Precursor filling
 
