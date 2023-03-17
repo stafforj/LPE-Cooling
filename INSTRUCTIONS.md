@@ -2,7 +2,9 @@
 
 ### Operating Principles
 
-To be added
+To be added. 
+
+Draw schematic of cooling process and insert here.
 
 
 ## Bill of Materials
