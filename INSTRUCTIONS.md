@@ -13,7 +13,7 @@ Link to [PID-blender](https://github.com/DTP587/PID-Blender) repository for blen
 
 ## Bill of Materials
 
-The BoM is split into the main components of the build and additional components that are optional. These add the option for coolant recirculation, or when using an external chiller to provide cooling capacity. These optional components add a notable cost to the build. This could be reduced by moving to other fittings and tubing (e.g., brass fittings and copper tubing).
+The BoM is split into the main components of the build and additional components that are optional. These additional parts facilitate coolant recirculation, or if using an external chiller to provide the cooling function. The optional components listed below add a notable cost to the build (relative to the main component costs). This cost could be reduced by moving to other fittings and tubing (e.g., brass fittings and copper tubing).
 
 ### Main items
 
@@ -55,7 +55,11 @@ A total of six components from the cooling system are 3D printed parts. The CAD 
 
 To be added. Figure comparing conformally coated FDM to standard PETG.
 
-The CAD files were printed using a FDM type printer (Ultimaker S3, 0.2mm layer thickness, 20\% infill, no supports). PETG was selected as the filament material for the printing process due to its ability to tolerate higher temperatures (~ 70 oC) and has greater chemical resistance than other materials (e.g. PLA).
+The CAD files were printed using a Fused-deposition-modeling (FDM) printer (Ultimaker S3, 0.2mm layer thickness, 20\% infill, no supports). PETG was selected as the filament material for the printing process due to its ability to tolerate high temperatures (~ 70-80 °C), mechanical properties, and good chemical resistance to certain oils and solvents. 
+
+In this build, the components are exposed to water and ice. Although PETG is compatible with this, the layers in the FDM process can create sites for fluid leakages. To remove the risk of leakages, the 3D printed parts were coated with a silicon conformal coating. 
+
+
 
 ![Conformal coating](./Images/FDM-conformal-coating.png)
 
