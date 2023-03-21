@@ -57,7 +57,7 @@ To be added. Figure comparing conformally coated FDM to standard PETG.
 
 The CAD files were printed using a Fused-deposition-modeling (FDM) printer (Ultimaker S3, 0.2mm layer thickness, 20\% infill, no supports). PETG was selected as the filament material for the printing process due to its ability to tolerate high temperatures (~ 70-80 °C), mechanical properties, and good chemical resistance to certain oils and solvents. 
 
-In this build, the components are exposed to water and ice. Although PETG is compatible with this, the layers in the FDM process can create sites for fluid leakages. To remove the risk of leakages, the 3D printed parts were coated with a silicon conformal coating. 
+In this build, the components are exposed to water and ice. Although PETG is compatible with this, the layers in the FDM process can create sites for fluid leakages. To remove the risk of leakages, the 3D printed parts were coated with a thin film silicon conformal coating (three spray coats ~ 100 $\u$m thickness). 
 
 
 
