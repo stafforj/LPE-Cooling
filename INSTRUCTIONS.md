@@ -62,11 +62,11 @@ Once printed, the parts were coated with three spray coats and allowed to cure a
 
 ![Component breakdown](./Images/all-vessel-components.png)
 
-Components `1`, `4` and `9` were bonded to the synthesis vessel (Kenwood BLP31.D0WG) using a sealant adhesive. The vessel spout with integrated thermocouple mounting (Component `4`), required modifications to the synthesis vessel before the bonding process. A 15 mm diameter hole was drilled at the top and centre of the vessel. A second 4 mm diameter hole, located 20 mm (centre-to-centre) from the centre of the vessel, was drilled to accomodate the thermocouple probe insertion into the vessel.  
+Components `1`, `4` and `9` were bonded to the synthesis vessel (Kenwood BLP31.D0WG) using a sealant adhesive. The vessel spout with integrated thermocouple mounting (Component `4`), required modifications to the synthesis vessel before the bonding process. A 15 mm diameter hole was drilled at the top and centre of the vessel. This hole allows filling the vessel with precursor materials from the top (shown later). A second 4 mm diameter hole, located 20 mm (centre-to-centre) from the centre of the vessel, was drilled to accomodate the thermocouple probe insertion for measuring process temperature.  The thermocouple probe is inserted into component `4` at the desired depth, and the part then bonded to the top of the vessel. 
 
 ![Bonding construction](./Images/FDM-vessel-bonding.png)
 
-
+Before moving to the complete 
 
 ![Barebones without EPDM cylinders](./Images/barebones-with-pipette.png)
 
