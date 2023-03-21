@@ -28,7 +28,7 @@ The BoM is split into the main components for the cooling system and additional 
 |Bag of ice|1  |2 kg bag of ice cubes.|
 |Thermocouple reader|1 |Data logger for reading Type K thermocouples. See our [Thermocouple-Datalogger](https://github.com/stafforj/Thermocouple-Datalogger) build for a RPi-based datalogger.
 |Kitchen blender |1 |Standard off-the-shelf, [relay-controlled](https://github.com/stafforj/Automated-Relay-Switch), or [PID-controlled](https://github.com/DTP587/PID-Blender).
-|Misc.|   | <ul><li>Spanners</li><li>Screwdrivers</li><li>Gloves</li><li>Face mask</li></ul>|
+|Misc.|   | <ul><li>Spanners</li><li>Screwdrivers</li><li>Gloves</li><li>Face mask</li><li>1L water</li></ul>|
 
 ### Coolant recirculation (optional)
 
