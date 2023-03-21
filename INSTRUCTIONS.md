@@ -19,15 +19,16 @@ The BoM is split into the main components for the cooling system and additional 
 
 |Name               |QTY|Description                           |
 |:------------------|:-:|:-------------------------------------|
-|[PETG](RS components link)|1  |PETG filament for 3D printing. 386 grams used for all components. |
-|[Silicon conformal sealant](MG chemicals)|1 |Silicon conformal spray coating.|
-|[EPDM Pipe Adaptor (1)](Screwfix)|1  |Flexible EPDM pipe adaptor 160mm.|
-|[EPDM Pipe Adaptor (2)](Screwfix)|1  |Flexible EPDM pipe adaptor 120-136mm.|
-|[Adhesive/Sealant](Screwfix)|1  | High bond strength adhesive/sealant.|
-|[Thermocouple](TC direct)|1  |Type K thermocouple with 3mm SS probe sheath diameter.|
+|[PETG](RS components link)|1  |PETG filament for 3D printing. 386 grams used to print all components. |
+|[Silicon conformal sealant](https://uk.rs-online.com/web/p/conformal-coatings/1247695)|1 |Silicon conformal spray coating. Approximately 100 mL used.|
+|[EPDM Pipe Adaptor (1)](https://www.screwfix.com/p/floplast-flexi-adaptor-160mm/1009v)|1  |Flexible EPDM pipe adaptor 160mm.|
+|[EPDM Pipe Adaptor (2)](https://www.screwfix.com/p/floplast-underground-flexible-adaptor-120-136mm/19914)|1  |Flexible EPDM pipe adaptor 120-136mm.|
+|[Adhesive/Sealant](https://www.screwfix.com/p/soudal-fix-all-high-tack-adhesive-sealant-white-290ml/64585)|1  |High bond strength adhesive/sealant. Approximately 30 mL used.|
+|[Thermocouple](https://www.tcdirect.co.uk/product-2-190-1---Mineral-Insulated-Thermocouple-with-Pot-Seal-0-25-0-5-0-75-1-0-1-5-and-3-0mm-diameters)|1  |Type K thermocouple with 3 mm 310 SS probe sheath diameter, 100 mm length.|
 |Bag of ice|1  |2 kg bag of ice cubes.|
-|[Thermocouple reader](Link to Thermcouple Datalogger build)|1 | Data logger for reading Type K thermocouples.
-|Misc.|   | <ul><li>Spanners</li><li>Screwdrivers</li></ul>|
+|[Thermocouple reader]()|1 |Data logger for reading Type K thermocouples.
+|Kitchen blender |1 |Standard off-the-shelf, [relay-controlled](https://github.com/stafforj/Automated-Relay-Switch), or [PID-controlled]((https://github.com/DTP587/PID-Blender).
+|Misc.|   | <ul><li>Spanners</li><li>Screwdrivers</li><li>Gloves</li><li>Face mask</li></ul>|
 
 ### Coolant recirculation (optional)
 
