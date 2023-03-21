@@ -19,7 +19,7 @@ The BoM is split into the main components for the cooling system and additional 
 
 |Name               |QTY|Description                           |
 |:------------------|:-:|:-------------------------------------|
-|[PETG](RS components link)|1  |PETG filament for 3D printing. 386 grams used to print all components. |
+|PETG|1  |PETG filament for 3D printing. 386 grams used to print all components. |
 |[Silicon conformal sealant](https://uk.rs-online.com/web/p/conformal-coatings/1247695)|1 |Silicon conformal spray coating. Approximately 100 mL used.|
 |[EPDM Pipe Adaptor (1)](https://www.screwfix.com/p/floplast-flexi-adaptor-160mm/1009v)|1  |Flexible EPDM pipe adaptor 160mm.|
 |[EPDM Pipe Adaptor (2)](https://www.screwfix.com/p/floplast-underground-flexible-adaptor-120-136mm/19914)|1  |Flexible EPDM pipe adaptor 120-136mm.|
@@ -34,7 +34,7 @@ The BoM is split into the main components for the cooling system and additional 
 
 |Name               |QTY|Description                           |
 |:------------------|:-:|:-------------------------------------|
-|[SS tube](RS components link)|1  |1/4" stainless steel tube. 300mm length used. |
+|SS tube|1  |1/4" stainless steel tube. 300mm length used. |
 |[SS Bulkhead Union](https://buy.ham-let.com/774lss1-4)|2  |Bulk head fittings mounted to top 3DP part.|
 |[SS Tube stub adapter](https://buy.ham-let.com/130ltss1-4x1-4)|2  |1/4" Hose barb fitting.|
 |[SS Union Tee](https://buy.ham-let.com/764lss1-4)|2  |1/4" Tee fitting.|
