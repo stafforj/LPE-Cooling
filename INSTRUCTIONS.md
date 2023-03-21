@@ -28,7 +28,7 @@ The BoM is split into the main components for the cooling system and additional 
 |Bag of ice|1  |2 kg bag of ice cubes.|
 |Thermocouple reader|1 |Data logger for reading Type K thermocouples. See our [Thermocouple-Datalogger](https://github.com/stafforj/Thermocouple-Datalogger) build for a RPi-based datalogger.
 |Kitchen blender |1 |Standard off-the-shelf, [relay-controlled](https://github.com/stafforj/Automated-Relay-Switch), or [PID-controlled](https://github.com/DTP587/PID-Blender).
-|Misc.|   | <ul><li>Spanners</li><li>Screwdrivers</li><li>Gloves</li><li>Face mask</li><li>1L water</li></ul>|
+|Misc.|   | <ul><li>Spanners</li><li>Screwdrivers</li><li>Gloves</li><li>Face mask</li><li>Electrical drill/Rotary tool</li><li>1L water</li></ul>|
 
 ### Coolant recirculation (optional)
 
@@ -62,7 +62,7 @@ Once printed, the parts were coated with three spray coats and allowed to cure a
 
 ![Component breakdown](./Images/all-vessel-components.png)
 
-Components A and B were then bonded to the mixing vessel (Kenwood BLP31.D0WG) using a sealant adhesive. 
+Components `1`, `4` and `9` were bonded to the synthesis vessel (Kenwood BLP31.D0WG) using a sealant adhesive. The vessel spout with integrated thermocouple mounting (Component `4`), required modifications to the synthesis vessel before the bonding process. A 15 mm diameter hole was drilled at the top and centre of the vessel. A second 4 mm diameter hole, located 20 mm (centre-to-centre) from the centre of the vessel, was drilled to accomodate the thermocouple probe insertion into the vessel.  
 
 ![Bonding construction](./Images/FDM-vessel-bonding.png)
 
