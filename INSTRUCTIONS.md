@@ -2,9 +2,8 @@
 
 ### Operating Principles
 
-To be added. 
+To be added. Draw schematic of cooling process and insert here.
 
-Draw schematic of cooling process and insert here.
 
 Link to [Thermocouple-Datalogger](https://github.com/stafforj/Thermocouple-Datalogger) repository for temperature data aquisition.
 Link to [Automated-Relay-Switch](https://github.com/stafforj/Automated-Relay-Switch) repository for blender control.
@@ -13,7 +12,8 @@ Link to [PID-blender](https://github.com/DTP587/PID-Blender) repository for blen
 
 ## Bill of Materials
 
-The BoM is split into the main components of the build and additional components that are optional. These additional parts facilitate coolant recirculation, or if using an external chiller to provide the cooling function. The optional components listed below add a notable cost to the build (relative to the main component costs). This cost could be reduced by moving to other fittings and tubing (e.g., brass fittings and copper tubing).
+The BoM is split into the main components for the cooling system and additional components that are optional. These additional parts facilitate coolant recirculation, or if using an external chiller to provide the cooling function. The optional components listed below add greater cost to the build (relative to the main component costs). This cost could be reduced by moving to other types of fittings and tubing (e.g., brass fittings and copper tubing).
+
 
 ### Main items
 
@@ -51,13 +51,9 @@ A total of six components from the cooling system are 3D printed parts. The CAD 
 
 ### Construction
 
-86g (base) + 42g (spout) + 181g (middle) + 8g (x2 ports) + 69g (top) = 386 g
+The CAD files were printed using a fused-deposition-modeling (FDM) printer (Ultimaker S3, 0.2mm layer thickness, 20\% infill, no supports). Polyethylene terephthalate glycol (PETG) was selected as the filament material for the printing process due to its ability to tolerate high temperatures (~ 70-80 °C), its mechanical properties, and chemical resistance to certain oils and solvents. 
 
-To be added. Figure comparing conformally coated FDM to standard PETG.
-
-The CAD files were printed using a Fused-deposition-modeling (FDM) printer (Ultimaker S3, 0.2mm layer thickness, 20\% infill, no supports). PETG was selected as the filament material for the printing process due to its ability to tolerate high temperatures (~ 70-80 °C), mechanical properties, and good chemical resistance to certain oils and solvents. 
-
-In this build, the components are exposed to water and ice. Although PETG is compatible with this, the layers in the FDM process can create sites for fluid leakages. To remove the risk of leaks, the 3D printed parts were coated with a thin film silicon-based conformal coating (three spray coats ~ 100 microns thickness). To illustrate this, a sample part was 3D printed, masked, and partially covered with a single spray coat (~ 25 microns). The difference between the coated and uncoated PETG surface is shown in the image below. The conformal coating covers the layers and insterstices, sealing the printed part and preventing liquid leaks. This surface coating is mechanically robust. As the surface in contact with the coolant and product is a different material than PETG, the chemical resistance of the part should be re-assessed for applications where a coolant other than water/ice is used.    
+In this build, the components are exposed to water and ice. Although PETG is compatible with water, the layers resulting from the FDM process can create sites for fluid leakages in the finished part. To remove the risk of leaks, the 3D printed parts were coated with a thin film silicon-based conformal coating (three spray coats ~ 100 microns thickness). To show the visual effect of this, a sample part was 3D printed, masked, and partially covered with a single spray coat (~ 25 microns). The difference between the coated and uncoated PETG surface is shown in the image below. The conformal coating covers the layers and insterstices, sealing the printed part and preventing liquid leaks. This surface coating is mechanically robust. As the surfaces in contact with the coolant and product are a different material than PETG, the chemical resistance of coated parts should be re-assessed for applications where a coolant other than water/ice is used.    
 
 ![Conformal coating](./Images/FDM-conformal-coating.png)
 
