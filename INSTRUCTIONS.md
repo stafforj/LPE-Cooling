@@ -58,13 +58,18 @@ In this build, the components are exposed to water and ice. Although PETG is com
 
 ![Conformal coating](./Images/FDM-conformal-coating.png)
 
-Two of the components were then bonded to the mixing vessel (Kenwood BLP31.D0WG).
+Once printed, the parts were coated with three spray coats and allowed to cure at room temperature for 24 hours between coatings. All components of the cooling system are shown in the image below.
+
+![Component breakdown](./Images/all-vessel-components.png)
+
+Components A and B were then bonded to the mixing vessel (Kenwood BLP31.D0WG) using a sealant adhesive. 
 
 ![Bonding construction](./Images/FDM-vessel-bonding.png)
 
+
+
 ![Barebones without EPDM cylinders](./Images/barebones-with-pipette.png)
 
-![Component breakdown](./Images/all-vessel-components.png)
 
 ## Assembly of Liquid Phase Exfoliation Cooling System 
 
