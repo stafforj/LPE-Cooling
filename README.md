@@ -1,4 +1,4 @@
-# Exfoliation-Cooling-System
+# Liquid Exfoliation Cooling System
 
 _A low-cost approach for cooling high shear exfoliation and material blending processes. The main cooling apparatus is constructed from 3D-printed components and off-the-shelf pipe connectors. Included are the designs and build notes. Part of the Open Science Framework repository Open2DM._
 
