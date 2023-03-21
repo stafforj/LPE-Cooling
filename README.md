@@ -1,13 +1,13 @@
 # Liquid Exfoliation Cooling System
 
-_A low-cost approach for cooling high shear exfoliation and material blending processes. The main cooling apparatus is constructed from 3D-printed components and off-the-shelf pipe connectors. Included are the designs and build notes. Part of the Open Science Framework repository Open2DM._
+_A low-cost approach for cooling high shear exfoliation and material blending processes. The main cooling apparatus is constructed from 3D-printed components and off-the-shelf pipe connectors. Included are the designs and build notes. Part of the Open Science Framework repository [Open2DM](https://osf.io/evupy/)._
 
 ![Complete LPE assembly](./Images/complete-cooling-assembly.png)
 
 
 ## Background & Motivation
 
-_This is part of the Open2DM labware project._
+_This is part of the [Open2DM](https://osf.io/evupy/) labware project._
 
 High shear exfoliation is a process that uses mechanical force to produce atomically thin materials in liquid dispersions. Our research explores and utilises these processes to synthesise materials such as graphene, graphene-based materials, and others including transition metal dichalcogenides. We decided to create a low-cost, controllable shear exfoliation system that would be capable of synthesising reasonable product concentrations and formulating functional inks/composites at laboratory scales (~ 100 mL volumes). The aim was to design and build a scientific instrument which would allow researchers to do this with a low entry cost (~ 200 GBP). 
 
