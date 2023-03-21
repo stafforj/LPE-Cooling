@@ -11,27 +11,51 @@ Link to `Thermocouple-Datalogger` repository for temperature data aquisition.
 
 ## Bill of Materials
 
+The BoM is split into the main components of the build and additional components that are optional. These add the option for coolant recirculation, or when using an external chiller to provide cooling capacity. These optional components add a notable cost to the build. This could be reduced by moving to other fittings and tubing (e.g., brass fittings and copper tubing).
+
+### Main items
+
 |Name               |QTY|Description                           |
 |:------------------|:-:|:-------------------------------------|
-|[Raspberry Pi](https://uk.farnell.com/raspberry-pi/rpi3-modbp/sbc-board-raspberry-pi-3-model/dp/2842228?src=raspberrypi)|1  |Raspberry Pi 3B+ single board computer. |
-|[PCB HAT](https://www.adafruit.com/product/2310)|1  |Adafruit Perma-Proto HAT without EEPROM.|
-|[Raspberry Pi Case](https://uk.rs-online.com/web/p/raspberry-pi-cases/9098132)|1 |Case for RPi and thermocouple HAT.| 
-|[Thermocouple Amplifier](https://www.adafruit.com/product/269)|3  |MAX31855 thermocouple amplifier board for Type-K thermocouples.|
-|[Thermocouple connectors](https://uk.rs-online.com/web/p/sensor-accessories/8919031)|3  |For quick connection of thermocouples to datalogger.|
-|[Thermocouple cable](https://uk.rs-online.com/web/p/thermocouple-extension-wire/2363959)|1  |Length depending on requirements.|
-|Thermocouples|3  |Type-K thermocouples to suit the application.|
-|Misc.|   | <ul><li>Wiring</li><li>Soldering Iron and solder</li><li>Small screwdriver</li></ul>|
+|[PETG](RS components link)|1  |PETG filament for 3D printing. 386 grams used for all components. |
+|[Silicon conformal sealant](MG chemicals)|1 |Silicon conformal spray coating.|
+|[EPDM Pipe Adaptor (1)](Screwfix)|1  |Flexible EPDM pipe adaptor 160mm.|
+|[EPDM Pipe Adaptor (2)](Screwfix)|1  |Flexible EPDM pipe adaptor 120-136mm.|
+|[Adhesive/Sealant](Screwfix)|1  | High bond strength adhesive/sealant.|
+|[Thermocouple](TC direct)|1  |Type K thermocouple with 3mm SS probe sheath diameter.|
+|Bag of ice|1  |2 kg bag of ice cubes.|
+|[Thermocouple reader](Link to Thermcouple Datalogger build)|1 | Data logger for reading Type K thermocouples.
+|Misc.|   | <ul><li>Spanners</li><li>Screwdrivers</li></ul>|
 
+### Coolant recirculation (optional)
+
+|Name               |QTY|Description                           |
+|:------------------|:-:|:-------------------------------------|
+|[SS tube](RS components link)|1  |1/4" stainless steel tube. 300mm length used. |
+|[SS fitting](Hamlet)|2  |Bulk head fittings mounted to top 3DP part.|
+|[SS fitting](Hamlet)|2  |1/4" Hose barb fitting.|
+|[SS fitting](Hamlet)|2  |1/4" Tee fitting.|
+|[SS fitting](Hamlet)|2  |1/16" to 1/4" tube fitting.|
+|[Thermocouple](RS components)|2  |Type K thermocouples with 1.5mm SS probe sheath diameter.|
+|Tubing|1  |Silicon or Tygon tubing or similiar. 3m length used, 6mm or 1/4" ID. |
+|Pump|1  |Pump of choice to recirculate coolant. |
+|Misc.|   | <ul><li>Spanners</li><li>Screwdrivers</li></ul>|
 
 ## Design & Construction
 
 ### CAD files
 
-A total of six components from the cooling system are 3D printed (FDM) parts. The CAD (.stl) files for printing these parts are located in the repository within the folder `./CAD/`.
+A total of six components from the cooling system are 3D printed parts. The CAD (.stl) files for printing these parts are located within the folder `./CAD/`.
 
 ### Construction
 
+86g (base) + 42g (spout) + 181g (middle) + 8g (x2 ports) + 69g (top) = 386 g
+
 To be added. Figure comparing conformally coated FDM to standard PETG.
+
+The CAD files were printed using a FDM type printer (Ultimaker S3, 0.2mm layer thickness, 20\% infill, no supports). PETG was selected as the filament material for the printing process due to its ability to tolerate higher temperatures (~ 70 oC) and has greater chemical resistance than other materials (e.g. PLA).
+
+![Conformal coating](./Images/FDM-conformal-coating.png)
 
 ![Bonding construction](./Images/FDM-vessel-bonding.png)
 
