@@ -72,6 +72,15 @@ The complete assembly instructions are discussed in the following sections. The 
 
 ## Assembly of Liquid Phase Exfoliation Cooling System 
 
+(1) - base 
+(2) - mid-section
+(3) - top
+(4) - vessel spout
+(5) - TC insert
+(6) - TC plug
+(7) - lower cylinder
+(8) - upper cylinder
+
 ### Steps 1-4: Cooling jacket assembly
 
 To be added.
