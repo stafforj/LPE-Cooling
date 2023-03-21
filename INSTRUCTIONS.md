@@ -66,7 +66,7 @@ Components `1`, `4` and `9` were bonded to the synthesis vessel (Kenwood BLP31.D
 
 ![Bonding construction](./Images/FDM-vessel-bonding.png)
 
-The complete assembly instructions are discussed below. The following image shows the barebone assembly of printed parts and synthesis vessel without EPDM pipe adapters. The design of the spout also facilitates product sampling during processing using a 10 mL pipette.   
+The complete assembly instructions are discussed in the following sections. The following image shows the barebone assembly of printed parts and synthesis vessel without EPDM pipe adapters. The design of the spout also facilitates product sampling during processing using a 10 mL pipette.   
 
 ![Barebones without EPDM cylinders](./Images/barebones-with-pipette.png)
 
