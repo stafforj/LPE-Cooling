@@ -35,11 +35,11 @@ The BoM is split into the main components for the cooling system and additional 
 |Name               |QTY|Description                           |
 |:------------------|:-:|:-------------------------------------|
 |[SS tube](RS components link)|1  |1/4" stainless steel tube. 300mm length used. |
-|[SS fitting](Hamlet)|2  |Bulk head fittings mounted to top 3DP part.|
-|[SS fitting](Hamlet)|2  |1/4" Hose barb fitting.|
-|[SS fitting](Hamlet)|2  |1/4" Tee fitting.|
-|[SS fitting](Hamlet)|2  |1/16" to 1/4" tube fitting.|
-|[Thermocouple](RS components)|2  |Type K thermocouples with 1.5mm SS probe sheath diameter.|
+|[SS Bulkhead Union](https://buy.ham-let.com/774lss1-4)|2  |Bulk head fittings mounted to top 3DP part.|
+|[SS Tube stub adapter](https://buy.ham-let.com/130ltss1-4x1-4)|2  |1/4" Hose barb fitting.|
+|[SS Union Tee](https://buy.ham-let.com/764lss1-4)|2  |1/4" Tee fitting.|
+|[SS Reducer](https://buy.ham-let.com/767ltss1-16x1-4tc)|2  |1/16" to 1/4" tube fitting.|
+|[Thermocouple](https://uk.rs-online.com/web/p/thermocouples/3971501)|2  |Type K thermocouple with 1.5mm SS probe sheath diameter, 150mm length.|
 |Tubing|1  |Silicon or Tygon tubing or similiar. 3m length used, 6mm or 1/4" ID. |
 |Pump|1  |Pump of choice to recirculate coolant. |
 |Misc.|   | <ul><li>Spanners</li><li>Screwdrivers</li></ul>|
