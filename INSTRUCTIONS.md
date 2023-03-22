@@ -16,7 +16,7 @@ This build can be combined with the following repositories to create a standalon
 
 ## Thermal Design
 
-The hardware design is based on the thermal loads that need to be dissipated from the liquid exfoliation system. In this build we use a 350W Kenwood BLP31.D0WG blender. We operate for a process time of $t ≈ 15$mins.
+The hardware design is based on the thermal loads that need to be dissipated from the liquid exfoliation system. In this build we use a 350W Kenwood BLP31.D0WG blender. We operate for a process time of $t ≈ 15$ mins.
 
 ## Bill of Materials
 
