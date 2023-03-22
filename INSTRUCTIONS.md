@@ -48,7 +48,7 @@ The BoM is split into the main components for the cooling system and additional 
 
 ### CAD files
 
-A total of six components from the cooling system are 3D printed parts. The CAD (.stl) files for printing these parts are located within the folder `[./CAD/](./CAD/)`.
+A total of six components from the cooling system are 3D printed parts. The CAD (.stl) files for printing these parts are located within the folder `./CAD/`.
 
 ### Construction
 
@@ -83,13 +83,16 @@ The complete assembly instructions are discussed in the following sections. The 
 
 ### Steps 1-4: Cooling jacket assembly
 
-
+1. Connect the lower cylinder to the base of the synthesis vessel. Tighten the lower hose clip to secure the EPDM pipe connector (component `7`) in place.
+2. Insert the mid-section part (component `2` in the part breakdown shown above) and tighten the second hose clip.
+3. Connect the upper cylinder to the mid-section (component `2`) and tighten the lower hose clip of this EPDM pipe connector (component `8`) to secure it.
+4. If applicable, mount the coolant recirculation pipes and connectors to the top part (component `3`). Guide the thermocouple connector and wire through the central hole. Do not secure the top part in the EPDM pipe connector (component `8`) at this stage.
 
 ![Assembling jacket](./Images/pre-test-assembly.png)
 
 ### Step 5: Precursor filling
 
-To be added.
+1. GGG
 
 ![Fill internal vessel](./Images/pre-test-assembly-precursor-fill.png)
 
