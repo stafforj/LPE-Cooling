@@ -73,15 +73,6 @@ The complete assembly instructions are discussed in the following sections. The 
 
 ## Assembly of Liquid Exfoliation Cooling System 
 
-(1) - base 
-(2) - mid-section
-(3) - top
-(4) - vessel spout
-(5) - TC insert
-(6) - TC plug
-(7) - lower cylinder
-(8) - upper cylinder
-
 ### Steps 1-4: Cooling jacket assembly
 
 1. Connect the lower cylinder to the base of the synthesis vessel. Tighten the lower hose clip to secure the EPDM pipe connector (component `7`) in place.
