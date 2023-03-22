@@ -28,6 +28,7 @@ The BoM is split into the main components for the cooling system and additional 
 |Bag of ice|1  |2 kg bag of ice cubes.|
 |Thermocouple reader|1 |Data logger for reading Type K thermocouples. See our [Thermocouple-Datalogger](https://github.com/stafforj/Thermocouple-Datalogger) build for a RPi-based datalogger.
 |Kitchen blender |1 |Standard off-the-shelf, [relay-controlled](https://github.com/stafforj/Automated-Relay-Switch), or [PID-controlled](https://github.com/DTP587/PID-Blender).
+|[Funnel](https://www.fishersci.co.uk/shop/products/borosilicate-glass-powder-funnel-9/12993591?emb_id=pp_euorderconfirmation_producttitle) |1 |Glass/Plastic funnel for precursor loading. 70mm diameter (top), 16mm diameter (stem), 25 mm length.
 |Misc.|   | <ul><li>Spanners</li><li>Screwdrivers</li><li>Gloves</li><li>Face mask</li><li>Electrical drill/Rotary tool</li><li>1L water</li></ul>|
 
 ### Coolant recirculation (optional)
@@ -86,40 +87,40 @@ The complete assembly instructions are discussed in the following sections. The 
 1. Connect the lower cylinder to the base of the synthesis vessel. Tighten the lower hose clip to secure the EPDM pipe connector (component `7`) in place.
 2. Insert the mid-section part (component `2` in the part breakdown shown above) and tighten the second hose clip.
 3. Connect the upper cylinder to the mid-section (component `2`) and tighten the lower hose clip of this EPDM pipe connector (component `8`) to secure it.
-4. If applicable, mount the coolant recirculation pipes and connectors to the top part (component `3`). Guide the thermocouple connector and wire through the central hole. Do not secure the top part in the EPDM pipe connector (component `8`) at this stage.
+4. Guide the thermocouple connector and cable (component `9`) through the central hole. Do not secure the top part in the EPDM pipe connector (component `8`) at this stage. If using an external pumped cooling loop, mount the coolant recirculation pipes and pipe connectors to the top part (component `3`). 
 
 ![Assembling jacket](./Images/pre-test-assembly.png)
 
 ### Step 5: Precursor filling
 
-1. GGG
+5. Insert funnel into the top of the spout (component `4`) and load the precursor materials into the mixing vessel.
 
 ![Fill internal vessel](./Images/pre-test-assembly-precursor-fill.png)
 
 ### Step 6: Ice filling
 
-To be added.
+6. Pack the cooling jacket with ice cubes. Note, that the size of the ice cubes impacts how much can be added. If a maximum ice fill is required, the kitchen blender could also be used to break up large ice cubes into smaller pieces that can pack into the cooling jacket with lower void fraction. 
 
 ![Ice packing](./Images/pre-test-assembly-ice.png)
 
 ### Step 7: Cooling jacket closure
 
-To be added. Connection of pump tubes for coolant circulation.
+7. Insert the top section (component `3`) and tighten the second hose clip on the EPDM pipe connector (component `8`) to secure and seal the cooling jacket. If using an external pumped cooling loop, connection the pump tubes for coolant circulation.
 
 ![Top insertion](./Images/pre-test-assembly-close-vessel.png)
 
 ### Step 8-9: Thermocouple routing 
 
-To be added.
+8. Fit the thermocouple port insert (component `5`) into the top section (component `3`), guiding the thermocouple cable through the slot. Push fully into place as shown in the images below. This component fits through the top section and into the vessel spout.
+9. Insert the thermocouple port plug to close the opening to the vessel spout. 
 
 ![TC plugging](./Images/pre-test-assembly-route-TC.png)
 
 ### Step 10: Connecting to thermocouple datalogger
 
-To be added.
+10. Connect the process thermocouple to the data logger. If using an external pumped cooling loop, with additional coolant thermcouples on the inlet and outlet, connect these to the data logger also. This completes the cooling system assembly. 
 
 ![TC connections](./Images/pre-test-assembly-tc-connections.png)
-
 
 
 
