@@ -25,7 +25,10 @@ Latent heat of fusion = 334 kJ/kg
 21kJ/min / 334kJ/kg = 0.063 kg/min
 1260kJ/h / 334kJ/kg = 3.77 kg/h
 ```
-Or ≈ 1 kg in 15 mins. 
+Which is ≈ 1 kg of ice melted in 15 mins. This is a basic starting point for sizing the cooling jacket. For this application, at a minimum the design must be capable of holding 1 kg of ice around the vessel. Ideally, it should be made bigger than this to accommodate the assumptions that have been made as well as factoring in any future requirements such as longer process times.
+
+We should also consider that this the other areas that 
+
 
 
 Assuming we use 1 kg ice cubes from a bag of ice (most bags of ice in grocery stores are ≈ 2kg), we can calculate the time it would take to melt the ice into liquid water.
