@@ -89,7 +89,7 @@ Heat generation from LPE process (t = 15 min): 315 kJ
 Ambient heat gain (t = 15 min): 18 kJ
 Total energy = 333 kJ heat added to ice/water jacket
 ```
-Note that this only considers heat loads during the process "ON" time. If the process is run intermittently (ON-OFF), the ambient heat gain persists during the process OFF time.
+Which is sufficient to allow control of the process cooling. Note that this only considers heat loads during the process "ON" time. If the process is run intermittently (ON-OFF), the ambient heat gain persists during the process OFF time.
 
 
 ### CAD files
