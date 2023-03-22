@@ -2,15 +2,20 @@
 
 ### Operating Principles
 
-Liquid exfoliation processes, and many other mixing/formulation operations, impart high shear rates ($\dot{\gamma}$) on precursor materials dispersed in solvents. This action can generate heat ($\dot{Q}$) through viscous heating of the fluid. A schematic of a liquid exfoliation process that uses a rapidly rotating impeller inside a closed vessel is shown in the schematic below. When the vessel is allowed to cool naturally in air, the amount of heat that can be dissipated from the system is limited by passive heat transfer from the external surface of the vessel to the ambient air ($Q''_{nc}$)
+Liquid exfoliation processes, and many other mixing/formulation operations, impart high shear rates ($\dot{\gamma}$) on precursor materials dispersed in solvents. This action can generate heat through viscous heating of the fluid ($\dot{Q}$). A schematic of a liquid exfoliation process that uses a rapidly rotating impeller inside a closed vessel is shown in the schematic below. When the vessel is allowed to cool naturally in air, the amount of heat that can be dissipated from the system is limited by passive heat transfer modes (natural convection & radiation) from the external surface of the vessel to the ambient surroundings ($Q''_{nc}$). This can result in uncontrollably high product temperatures that can affect the mixing process and/or impact the reliability of the exfoliation system itself.
 
-This build can be used together with 
+The aim of this build is to provide a low cost approach to control the temperature of a kitchen blender vessel used for liquid exfoliation of nanomaterials. The operating principle is illustrated on the right schematic below. A cooling jacket surrounds the process vessel. The space inside is filled with ice cubes and chilled water which removes thermal energy from the process vessel using two heat transfer modes: the latent heat of fusion from a phase change of ice ($Q''_{pc}$) and the sensible heating of liquid water that is enhanced by coolant recirculation ($Q''_{cv}$).
 
-Link to [Thermocouple-Datalogger](https://github.com/stafforj/Thermocouple-Datalogger) repository for temperature data aquisition.
-Link to [Automated-Relay-Switch](https://github.com/stafforj/Automated-Relay-Switch) repository for blender control.
-Link to [PID-blender](https://github.com/DTP587/PID-Blender) repository for blender control.
+This build can be combined with the following repositories to create a standalone, low cost scientific apparatus with speed and product temperature control: 
+
+1. [Thermocouple-Datalogger](https://github.com/stafforj/Thermocouple-Datalogger) repository for temperature data aquisition.
+2. [PID-blender](https://github.com/DTP587/PID-Blender) repository for finely tuned blender speeed control, or
+3. [Automated-Relay-Switch](https://github.com/stafforj/Automated-Relay-Switch) repository for basic blender control.
 
 ![Operating principle](./Images/operating-principle-LPE-cooler.png)
+
+## Thermal Design
+
 
 ## Bill of Materials
 
