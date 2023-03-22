@@ -112,15 +112,18 @@ The complete assembly instructions are discussed in the following sections. The 
 ### Step 8-9: Thermocouple routing 
 
 8. Fit the thermocouple port insert (component `5`) into the top section (component `3`), guiding the thermocouple cable through the slot. Push fully into place as shown in the images below. This component fits through the top section and into the vessel spout.
-9. Insert the thermocouple port plug to close the opening to the vessel spout. 
+9. Insert the thermocouple port plug (component `6`) to close the opening to the vessel spout. 
 
 ![TC plugging](./Images/pre-test-assembly-route-TC.png)
 
 ### Step 10: Connecting to thermocouple datalogger
 
-10. Connect the process thermocouple to the data logger. If using an external pumped cooling loop, with additional coolant thermcouples on the inlet and outlet, connect these to the data logger also. This completes the cooling system assembly. 
+10. Connect the process thermocouple to the data logger. If using an external pumped cooling loop, with additional coolant thermcouples on the inlet and outlet, connect these to the data logger also.
 
 ![TC connections](./Images/pre-test-assembly-tc-connections.png)
 
+This completes the cooling system assembly for the liquid phase exfoliation (LPE) process.
+
+![Completed installation](./Images/complete-cooling-assembly.png)
 
 
