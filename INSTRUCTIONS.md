@@ -66,7 +66,14 @@ Latent heat of fusion = 334 kJ/kg
 ```
 Which is ≈ 1 kg of ice melted in 15 mins. This is a basic starting point for sizing the cooling jacket. For this application, the design must be capable of holding 1 kg of ice around the vessel at a minimum. Ideally, it should be made bigger than this to accommodate the assumptions that have been made, as well as factoring in any future requirements such as longer process times.
 
-Adding ice cubes to the cooling jacket leaves air gaps that have a negligible contribution to the heat transfer from the vessel. Recirculating chilled water (e.g., $T <$ 5°C) would also promote heat transfer from the vessel and replace the insulative air voids with flowing coolant (see previous schematic). Additionally, as the jacket temperature is lower than the ambient air outside ($T_{amb}$ ≈ 20-25°C in the lab), heat is gained by the cooling system. We can calculate this assuming an average heat transfer coefficient of $h = 7.5$ W/m $^2$ K, representing an average of the typical range of $h$ for natural convection (~ 5-10 W/m $^2$ K). Taking a cooling jacket diameter of 170mm and height of 250mm, the heat gained from the ambient, $Q_g$:
+Adding ice cubes to the cooling jacket leaves air gaps that have a negligible contribution to the heat transfer from the vessel. Recirculating chilled water (e.g., $T$ ≈ 5°C) would also promote heat transfer from the vessel and replace the insulative air voids with flowing coolant (see previous schematic). If we fill the jacket with an additional 1 L of chilled water, the sensible heating contribution for a 10 degree temperature rise can be calculated as:
+
+```
+Q_s = m*Cp*DT = 1*4184*10
+Q_s = 41.84 kJ
+```
+
+Additionally, as the jacket temperature is lower than the ambient air outside ($T_{amb}$ ≈ 20-25°C in the lab), heat is gained by the cooling system. We can calculate this assuming an average heat transfer coefficient of $h = 7.5$ W/m $^2$ K, representing an average of the typical range of $h$ for natural convection (~ 5-10 W/m $^2$ K). Taking a cooling jacket diameter of 170mm and height of 250mm, the heat gained from the ambient, $Q_g$:
 
 ```
 Q_g = h*A*DT = 7.5*(2*pi*0.085*0.250)*20
