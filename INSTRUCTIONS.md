@@ -14,8 +14,6 @@ This build can be combined with the following repositories to create a standalon
 
 ![Operating principle](./Images/operating-principle-LPE-cooler.png)
 
-
-
 ## Bill of Materials
 
 The BoM is split into the main components for the cooling system and additional components that are optional. These additional parts facilitate coolant recirculation, or if using an external chiller to provide the cooling function. The optional components listed below add greater cost to the build (relative to the main component costs). This cost could be reduced by moving to other types of fittings and tubing (e.g., brass fittings and copper tubing).
