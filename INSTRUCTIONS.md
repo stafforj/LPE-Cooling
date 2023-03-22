@@ -42,7 +42,7 @@ The BoM is split into the main components for the cooling system and additional 
 |[Thermocouple](https://uk.rs-online.com/web/p/thermocouples/3971501)|2  |Type K thermocouple with 1.5mm SS probe sheath diameter, 150mm length.|
 |Tubing|1  |Silicon or Tygon tubing or similiar. 3m length used, 6mm or 1/4" ID. |
 |Pump|1  |Pump of choice to recirculate coolant. |
-|Misc.|   | <ul><li>Spanners</li><li>Screwdrivers</li></ul>|
+|Misc.|   | <ul><li>Spanners</li><li>Screwdrivers</li><li>Pipe bender</li></ul>|
 
 ## Design & Construction
 
@@ -66,7 +66,7 @@ Components `1`, `4` and `9` were bonded to the synthesis vessel (Kenwood BLP31.D
 
 ![Bonding construction](./Images/FDM-vessel-bonding.png)
 
-The complete assembly instructions are discussed in the following sections. The following image shows the barebone assembly of printed parts and synthesis vessel without cooling jacket installed. The vessel spout was also designed to facilitate product sampling during material processing. Here, you can see a 10 mL pipette inserted into the vessel through the opening in the top part. Product samples can be taken without dissassembling the vessel, or interfering with the thermocouple or cooling system itself.    
+The complete assembly instructions are discussed in the following sections. The following image shows the barebone assembly of printed parts and synthesis vessel without the cooling jacket installed. The vessel spout was also designed to facilitate product sampling during material processing. Here, you can see a 10 mL pipette inserted into the vessel through the opening in the top part. Product samples can be taken without dissassembling the vessel, or interfering with the thermocouple or cooling system itself. The (optional) coolant recirculation pipes were formed using SS tubing and a pipe bender. These are intended to transport cooling fluid onto and away from the synthesis vessel, improving the convective heat transport from the external walls of the vessel.        
 
 ![Barebones without EPDM cylinders](./Images/barebones-with-pipette.png)
 
