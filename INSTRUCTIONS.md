@@ -16,7 +16,11 @@ This build can be combined with the following repositories to create a standalon
 
 ## Thermal Design
 
-The hardware design is based on the thermal loads that need to be dissipated from the liquid exfoliation system. In this build we use a 350W Kenwood BLP31.D0WG blender. We operate for a process time of $t ≈ 15$ mins.
+The hardware design is based on the thermal loads that need to be dissipated from the liquid exfoliation system. For this build we use a 350W Kenwood BLP31.D0WG blender. We typically operate the process for $t ≈ 15$ mins to perform a synthesis (doi:ACS). Assuming we use 1 kg ice cubes from a bag of ice (most bags of ice in grocery stores are ≈ 2kg), we can calculate the time it would take to melt the ice into liquid water.
+
+```
+Latent heat of fusion = 334 kJ/kg = 350 J/s = 21 kJ/min
+```
 
 ## Bill of Materials
 
