@@ -87,11 +87,11 @@ Energy from latent heat of fusion: 334 kJ
 Energy from heating 2 kg water by 10°C: 83.7 kJ
 Total energy = 417.7 kJ to heat ice/water jacket by 10°C
 
-Heat generation (t = 15 min): 315 kJ
+Heat generation from LPE process (t = 15 min): 315 kJ
 Ambient heat gain (t = 15 min): 18 kJ
 Total energy = 333 kJ heat added to ice/water jacket
 ```
-
+Note that this only considers heat loads during the process "ON" time. If the process is run intermittently (ON-OFF), the ambient heat gain persists during the process OFF time.
 
 
 ### CAD files
