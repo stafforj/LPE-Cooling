@@ -74,7 +74,7 @@ Q_s = m*Cp*DT = 2*4184*10 = 83.7 kJ
 
 Where the mass is calculated by adding the chilled water (1kg) and the melt water (1kg). Although this is a useful cooling contribution, it also illustrates the importance of phase change heat transfer to the cooling process (recall the value for latent heat of fusion above). A jacket size of 2.6 L was chosen to meet the processing requirements. This provided a volume ≈ 25% more than the 2.1 L volume that this simple analysis was based on (1kg ice + 1L water).
 
-Additionally, as the jacket temperature is lower than the ambient air outside ($T_{amb}$ ≈ 20-25°C in the lab), heat is gained by the cooling system. We can calculate this assuming an average heat transfer coefficient of $h = 7.5$ W/m $^2$ K, representing an average of the typical range of $h$ for natural convection (~ 5-10 W/m $^2$ K). Taking a cooling jacket diameter of 170 mm and height of 250 mm, the heat gained from the ambient, $Q_g$:
+Additionally, as the jacket temperature is lower than the ambient air outside ($T_{amb}$ ≈ 20-25°C in the lab), heat is gained by the cooling system. We can calculate this assuming a heat transfer coefficient of $h = 7.5$ W/m $^2$ K, representing an average of the typical range of $h$ for natural convection (~ 5-10 W/m $^2$ K). Taking a cooling jacket diameter of 170 mm and height of 250 mm, the heat gained from the ambient, $Q_g$:
 
 ```
 Q_g = h*A*DT = 7.5*(2*pi*0.085*0.250)*20 = 20 W
@@ -82,6 +82,15 @@ Q_g = h*A*DT = 7.5*(2*pi*0.085*0.250)*20 = 20 W
 ```
 The final estimates accounting for $Q_s$ and $Q_g$ are:
 
+```
+Energy from latent heat of fusion: 334 kJ
+Energy from heating 2 kg water by 10°C: 83.7 kJ
+Total energy = 417.7 kJ to heat ice/water jacket by 10°C
+
+Heat generation (t = 15 min): 315 kJ
+Ambient heat gain (t = 15 min): 18 kJ
+Total energy = 333 kJ heat added to ice/water jacket
+```
 
 
 
