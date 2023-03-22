@@ -2,7 +2,9 @@
 
 ### Operating Principles
 
-To be added. Draw schematic of cooling process and insert here.
+Liquid exfoliation processes, and many other mixing/formulation operations, impart high shear rates ($\dot{\gamma}$) on precursor materials dispersed in solvents. This action can generate heat ($\dot{Q}$) through viscous heating of the fluid. A schematic of a liquid exfoliation process that uses a rapidly rotating impeller inside a closed vessel is shown in the schematic below. When the vessel is allowed to cool naturally in air, the amount of heat that can be dissipated from the system is limited by passive heat transfer from the external surface of the vessel to the ambient air ($Q''_{nc}$)
+
+This build can be used together with 
 
 Link to [Thermocouple-Datalogger](https://github.com/stafforj/Thermocouple-Datalogger) repository for temperature data aquisition.
 Link to [Automated-Relay-Switch](https://github.com/stafforj/Automated-Relay-Switch) repository for blender control.
