@@ -55,7 +55,7 @@ The BoM is split into the main components for the cooling system and additional 
 
 ### Thermal Design
 
-The hardware design is based on the thermal loads that need to be dissipated from the liquid exfoliation system. For this build we use a 350W Kenwood BLP31.D0WG blender. We typically operate the process for $t ≈ 15$ mins to perform a synthesis (doi:ACS). Next we can estimate the amount of ice that would be melted into liquid water using the latent heat of fusion.
+The hardware design is based on the thermal loads that need to be dissipated from the liquid exfoliation system. For this build we use a 350W Kenwood BLP31.D0WG blender. We typically operate the process for $t ≈ 15$ mins to perform a synthesis (doi:ACS). Next, we can estimate the amount of ice that would melt into liquid water using the latent heat of fusion.
 
 ```
 Heat load: 350 W = 350 J/s = 21 kJ/min
@@ -64,9 +64,9 @@ Latent heat of fusion = 334 kJ/kg
 21kJ/min / 334kJ/kg = 0.063 kg/min
 1260kJ/h / 334kJ/kg = 3.77 kg/h
 ```
-Which is ≈ 1 kg of ice melted in 15 mins. This is a basic starting point for sizing the cooling jacket. For this application, at a minimum the design must be capable of holding 1 kg of ice around the vessel. Ideally, it should be made bigger than this to accommodate the assumptions that have been made as well as factoring in any future requirements such as longer process times.
+Which is ≈ 1 kg of ice melted in 15 mins. This is a basic starting point for sizing the cooling jacket. For this application, the design must be capable of holding 1 kg of ice around the vessel at a minimum. Ideally, it should be made bigger than this to accommodate the assumptions that have been made as well as factoring in any future requirements such as longer process times.
 
-We should also consider that this the other areas that 
+The ice cubes added to the cooling jacket leave air gaps that have a negligible contribution to the heat transfer from the vessel. Recirculating chilled water (e.g., $T <$ 5°C) would promote heat transfer from the vessel and replace the insulative air voids with flowing coolant (see previous schematic). Additionally, with the jacket temperature lower than the ambient air outside (typically 20-25°C in the lab),   
 
 
 
