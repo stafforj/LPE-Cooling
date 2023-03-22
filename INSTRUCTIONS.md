@@ -48,7 +48,7 @@ The BoM is split into the main components for the cooling system and additional 
 
 ### CAD files
 
-A total of six components from the cooling system are 3D printed parts. The CAD (.stl) files for printing these parts are located within the folder `./CAD/`.
+A total of six components from the cooling system are 3D printed parts. The CAD (.stl) files for printing these parts are located within the folder `[./CAD/](./CAD/)`.
 
 ### Construction
 
@@ -70,7 +70,7 @@ The complete assembly instructions are discussed in the following sections. The 
 
 ![Barebones without EPDM cylinders](./Images/barebones-with-pipette.png)
 
-## Assembly of Liquid Phase Exfoliation Cooling System 
+## Assembly of Liquid Exfoliation Cooling System 
 
 (1) - base 
 (2) - mid-section
@@ -83,7 +83,7 @@ The complete assembly instructions are discussed in the following sections. The 
 
 ### Steps 1-4: Cooling jacket assembly
 
-To be added.
+
 
 ![Assembling jacket](./Images/pre-test-assembly.png)
 
