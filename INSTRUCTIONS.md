@@ -53,7 +53,7 @@ The BoM is split into the main components for the cooling system and additional 
 
 ### Thermal Design
 
-The hardware design is based on the thermal loads that need to be dissipated from the liquid exfoliation system. For this build we use a 350W Kenwood BLP31.D0WG blender. We typically operate the process for $t ≈ 15$ mins to perform a synthesis ([doi:10.1021/acs.iecr.2c02634]https://doi.org/10.1021/acs.iecr.2c02634). Next, we can estimate the amount of ice that would melt into liquid water using the latent heat of fusion.
+The hardware design is based on the thermal loads that need to be dissipated from the liquid exfoliation system. For this build we use a 350W Kenwood BLP31.D0WG blender. We typically operate the process for $t ≈ 15$ mins to perform a synthesis [[doi:10.1021/acs.iecr.2c02634](https://doi.org/10.1021/acs.iecr.2c02634)]. Next, we can estimate the amount of ice that would melt into liquid water using the latent heat of fusion.
 
 ```
 Heat load: 350 W = 350 J/s = 21 kJ/min
