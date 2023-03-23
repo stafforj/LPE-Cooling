@@ -64,7 +64,7 @@ Latent heat of fusion = 334 kJ/kg
 ```
 Which shows that ≈ 1 kg of ice can melt in 15 mins. This is a basic starting point for sizing the cooling jacket. For this application, the design must be capable of holding 1 kg of ice around the vessel at a minimum. Ideally, it should be made bigger than this to accommodate the simplified assumptions that have been made, secondary heat loss/gain, as well as accounting for any future requirements such as longer process times.
 
-Adding ice cubes to the cooling jacket leaves air gaps that have a negligible contribution to the heat transfer from the vessel. The complete surface of the heated process vessel also won't be in direct contact with the ice due to these voids. Filling and recirculating chilled water (e.g., $T$ ≈ 1°C) can remove these insulative air gaps with a liquid coolant and promote uniform cooling over the entire vessel surface (see previous schematic). If the jacket is filled with an additional 1 L of chilled water, the sensible heating contribution assuming a target temperature rise of 10°C can be calculated as:
+Adding ice cubes to the cooling jacket leaves air gaps that have a negligible contribution to the heat transfer from the vessel. The complete surface of the heated process vessel also won't be in direct contact with the ice due to these voids. Filling and recirculating chilled water (e.g., $T$ ≈ 0.1-1°C) can remove these insulative air gaps with a liquid coolant and promote uniform cooling over the entire vessel surface (see previous schematic). If the jacket is filled with an additional 1 L of chilled water, the sensible heating contribution assuming a target temperature rise of 10°C can be calculated as:
 
 ```
 m: mass of chilled water (1kg) + mass of melt water (1kg)
