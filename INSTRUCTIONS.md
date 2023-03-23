@@ -2,7 +2,7 @@
 
 ### Operating Principles
 
-Liquid exfoliation processes, and many other mixing/formulation operations, impart high shear rates ($\dot{\gamma}$) on precursor materials dispersed in solvents. This action can generate heat through viscous heating of the fluid ($\dot{Q}$). A schematic of a liquid exfoliation process that uses a rapidly rotating impeller inside a closed vessel is shown in the schematic below. When the vessel is allowed to cool naturally in air, the amount of heat that can be dissipated from the system is limited by passive heat transfer modes from the external surface of the vessel to the ambient surroundings (natural convection & radiation, $Q_{nc}''$). This can result in uncontrollably high product temperatures that can affect the mixing process if there is a sensitivity to temperature and/or impact the reliability of the exfoliation system itself.
+Liquid exfoliation processes, and many other mixing/formulation operations, impart high shear rates ($\dot{\gamma}$) on precursor materials dispersed in solvents. This action can generate heat through viscous heating of the fluid ($\dot{Q}$). A schematic of a liquid exfoliation process that uses a rapidly rotating impeller inside a closed vessel is shown in the schematic below. When the vessel is allowed to cool naturally in air, the amount of heat that can be dissipated from the system is limited by passive heat transfer modes from the external surface of the vessel to the ambient surroundings (natural convection & radiation, $Q_{nc}''$). This can result in uncontrollable and high product temperatures that can affect the mixing process if there is a sensitivity to temperature, and/or impact the reliability of the exfoliation system itself.
 
 The aim of this build is to provide a low-cost approach that can cool a kitchen blender vessel during the liquid exfoliation of nanomaterials. The operating principle of the cooling system is illustrated on the right schematic below. A cooling jacket surrounds the process vessel. The internal space is filled with ice cubes and chilled water which removes thermal energy from the process vessel using two heat transfer modes - the latent heat of fusion from a phase change of ice ($Q_{pc}''$) and the sensible heating of liquid water that is enhanced by coolant recirculation ($Q_{cv}''$).
 
@@ -23,7 +23,7 @@ The BoM is split into the main components for the cooling system and additional 
 
 |Name               |QTY|Description                           |
 |:------------------|:-:|:-------------------------------------|
-|PETG|1  |PETG filament for 3D printing. 386 grams used to print all components. |
+|PETG|1  |PETG filament for 3D-printing. 386 grams used to print all components. |
 |[Silicon conformal sealant](https://uk.rs-online.com/web/p/conformal-coatings/1247695)|1 |Silicon conformal spray coating. Approximately 100 mL used.|
 |[EPDM Pipe Adaptor (1)](https://www.screwfix.com/p/floplast-flexi-adaptor-160mm/1009v)|1  |Flexible EPDM pipe adaptor 160mm.|
 |[EPDM Pipe Adaptor (2)](https://www.screwfix.com/p/floplast-underground-flexible-adaptor-120-136mm/19914)|1  |Flexible EPDM pipe adaptor 120-136mm.|
@@ -40,7 +40,7 @@ The BoM is split into the main components for the cooling system and additional 
 |Name               |QTY|Description                           |
 |:------------------|:-:|:-------------------------------------|
 |SS tube|1  |1/4" stainless steel tube. 300mm length used. |
-|[SS Bulkhead Union](https://buy.ham-let.com/774lss1-4)|2  |Bulk head fittings mounted to top 3DP part.|
+|[SS Bulkhead Union](https://buy.ham-let.com/774lss1-4)|2  |Bulk head fittings mounted to top 3D-printed part.|
 |[SS Tube stub adapter](https://buy.ham-let.com/130ltss1-4x1-4)|2  |1/4" Hose barb fitting.|
 |[SS Union Tee](https://buy.ham-let.com/764lss1-4)|2  |1/4" Tee fitting.|
 |[SS Reducer](https://buy.ham-let.com/767ltss1-16x1-4tc)|2  |1/16" to 1/4" tube fitting.|
@@ -105,13 +105,13 @@ This provides sufficient flexibility to enable cooling for $t = 15$ mins. Note t
 
 ### CAD files
 
-A total of six components from the cooling system are 3D printed parts. The CAD (.stl) files for printing these parts are located within the folder `./CAD/`.
+A total of six components from the cooling system are 3D-printed parts. The CAD (.stl) files for printing these parts are located within the folder `./CAD/`.
 
 ### Construction
 
 The CAD files were printed using a fused-deposition-modeling (FDM) printer (Ultimaker S3, 0.2mm layer thickness, 20\% infill, no supports). Polyethylene terephthalate glycol (PETG) was selected as the filament material for the printing process due to its ability to tolerate high temperatures (~ 70-80°C), its mechanical properties, printability, and chemical resistance to certain oils and solvents. 
 
-In this build, the components are exposed to water and ice. Although PETG is compatible with water, the layers resulting from the FDM process can create sites for fluid leakages in the finished part. To remove the risk of leaks, the 3D printed parts were coated with a thin film silicon-based conformal coating (~ 100 microns thickness). To show the visual effect of this coating, a sample part was 3D printed and masked with tape to partially cover it with a single spray coat (~ 25 microns). The difference between the coated and uncoated PETG surface is shown in the image below. The conformal coating covers the layers and insterstices, sealing the printed part and preventing liquid leaks. This surface coating is mechanically robust. As the surfaces in contact with the coolant and product are a different material than PETG, the chemical resistance of coated parts should be re-assessed for applications where a coolant other than water/ice is used.    
+In this build, the components are exposed to water and ice. Although PETG is compatible with water, the layers resulting from the FDM process can create sites for fluid leakages in the finished part. To remove the risk of leaks, the 3D-printed parts were coated with a thin film silicon-based conformal coating (~ 100 microns thickness). To show the visual effect of this coating, a sample part was 3D-printed and masked with tape to partially cover it with a single spray coat (~ 25 microns). The difference between the coated and uncoated PETG surface is shown in the image below. The conformal coating covers the layers and insterstices, sealing the printed part and preventing liquid leaks. This surface coating is mechanically robust. As the surfaces in contact with the coolant and product are a different material than PETG, the chemical resistance of coated parts should be re-assessed for applications where a coolant other than water/ice is used.    
 
 ![Conformal coating](./Images/FDM-conformal-coating.png)
 
