@@ -70,14 +70,19 @@ Adding ice cubes to the cooling jacket leaves air gaps that have a negligible co
 m: mass of chilled water (1kg) + mass of melt water (1kg)
 Cp: specific heat capacity
 DT: temperature rise
+
 Q_s = m*Cp*DT = 2*4184*10 = 83.7 kJ
 ```
 
-Where the mass is calculated by adding the chilled water (1kg) and the melt water (1kg). Although this is a useful cooling contribution, it also illustrates the importance of phase change heat transfer to the cooling process (recall the value for latent heat of fusion above). A jacket size of 2.6 L was chosen to meet the material processing requirements. This provided a volume ≈ 25% more than the 2.1 L that this simple analysis was based on (1kg ice + 1L water).
+Although this is a useful cooling contribution, it also illustrates the importance of phase change heat transfer to the cooling process (recall the value for latent heat of fusion above). A jacket size of 2.6 L was chosen to meet the material processing requirements. This provided a volume ≈ 25% more than the 2.1 L that this simple analysis was based on (1kg ice + 1L water).
 
 Additionally, as the jacket temperature is lower than the ambient air outside ($T_{amb}$ ≈ 20-25°C in the lab), heat is gained by the cooling system. We can calculate this assuming a heat transfer coefficient of $h = 7.5$ W/m $^2$ K, representing an average of the typical range of $h$ for natural convection (~ 5-10 W/m $^2$ K). Taking a cooling jacket diameter of 170 mm and height of 250 mm, the heat gained from the ambient, $Q_g$ is:
 
 ```
+h: heat transfer coefficient
+A: external surface area of the cooling jacket
+DT: temperature difference between the ambient air and cooling jacket
+
 Q_g = h*A*DT = 7.5*(2*pi*0.085*0.250)*20 = 20 W
 20 W = 20 J/s =  1.2 kJ/min
 ```
@@ -86,13 +91,16 @@ The final estimates accounting for $Q_s$ and $Q_g$ are:
 ```
 Energy from latent heat of fusion: 334 kJ
 Energy from heating 2 kg water by 10°C: 83.7 kJ
-Total energy = 417.7 kJ to heat ice/water jacket by 10°C
+Total energy = 417.7 kJ to heat the ice/water jacket by 10°C
 
-Heat generation from LPE process (t = 15 min): 315 kJ
-Ambient heat gain (t = 15 min): 18 kJ
-Total energy = 333 kJ heat added to ice/water jacket
+Heat generation from LPE process: 21 kJ/min
+Ambient heat gain: 1.2 kJ/min
+Total heat rate = 22.2 kJ/min (heat added to ice/water jacket)
+
+Total processing time before the ice melts and coolant temperature reaches 10°C
+t = 417.7 / 22.2 = 18.8 min
 ```
-Which provides sufficient flexibility to enable cooling for $t = 15$ mins. Note that this only considers heat loads during the process "ON" time. If the process is run intermittently (ON-OFF), the ambient heat gain persists during the process OFF time.
+This provides sufficient flexibility to enable cooling for $t = 15$ mins. Note that this only considers heat loads during the process "ON" time. If the process is run intermittently (e.g., 1 minute ON, 1 minute OFF, etc.), the ambient heat gain persists during the process OFF time. A revised estimate of the cooling time should be calculated with these considerations.
 
 
 ### CAD files
