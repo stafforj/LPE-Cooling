@@ -2,11 +2,11 @@
 
 ### Operating Principles
 
-Liquid exfoliation processes, and many other mixing/formulation operations, impart high shear rates ($\dot{\gamma}$) on precursor materials dispersed in solvents. This action can generate heat through viscous heating of the fluid ($\dot{Q}$). A schematic of a liquid exfoliation process that uses a rapidly rotating impeller inside a closed vessel is shown in the schematic below. When the vessel is allowed to cool naturally in air, the amount of heat that can be dissipated from the system is limited by passive heat transfer modes (natural convection & radiation) from the external surface of the vessel to the ambient surroundings ($Q_{nc}''$). This can result in uncontrollably high product temperatures that can affect the mixing process and/or impact the reliability of the exfoliation system itself.
+Liquid exfoliation processes, and many other mixing/formulation operations, impart high shear rates ($\dot{\gamma}$) on precursor materials dispersed in solvents. This action can generate heat through viscous heating of the fluid ($\dot{Q}$). A schematic of a liquid exfoliation process that uses a rapidly rotating impeller inside a closed vessel is shown in the schematic below. When the vessel is allowed to cool naturally in air, the amount of heat that can be dissipated from the system is limited by passive heat transfer modes from the external surface of the vessel to the ambient surroundings (natural convection & radiation, $Q_{nc}''$). This can result in uncontrollably high product temperatures that can affect the mixing process if there is a sensitivity to temperature and/or impact the reliability of the exfoliation system itself.
 
-The aim of this build is to provide a low cost approach that can cool a kitchen blender vessel during the liquid exfoliation of nanomaterials. The operating principle is illustrated on the right schematic below. A cooling jacket surrounds the process vessel. The space inside is filled with ice cubes and chilled water which removes thermal energy from the process vessel using two heat transfer modes: the latent heat of fusion from a phase change of ice ($Q_{pc}''$) and the sensible heating of liquid water that is enhanced by coolant recirculation ($Q_{cv}''$).
+The aim of this build is to provide a low-cost approach that can cool a kitchen blender vessel during the liquid exfoliation of nanomaterials. The operating principle of the cooling system is illustrated on the right schematic below. A cooling jacket surrounds the process vessel. The internal space is filled with ice cubes and chilled water which removes thermal energy from the process vessel using two heat transfer modes - the latent heat of fusion from a phase change of ice ($Q_{pc}''$) and the sensible heating of liquid water that is enhanced by coolant recirculation ($Q_{cv}''$).
 
-This build can be combined with the following repositories to create a standalone, low cost scientific apparatus with speed and product temperature control: 
+This build can be combined with the following repositories to create a standalone, low-cost scientific apparatus with speed and temperature control: 
 
 1. [Thermocouple-Datalogger](https://github.com/stafforj/Thermocouple-Datalogger) repository for temperature data aquisition module.
 2. [PID-blender](https://github.com/DTP587/PID-Blender) repository for finely tuned blender speed control, or
@@ -53,7 +53,7 @@ The BoM is split into the main components for the cooling system and additional 
 
 ### Thermal Design
 
-The hardware design is based on the thermal loads that need to be dissipated from the liquid exfoliation system. For this build we use a 350W Kenwood BLP31.D0WG blender. We typically operate the process for $t ≈ 15$ mins to perform a synthesis [[doi:10.1021/acs.iecr.2c02634](https://doi.org/10.1021/acs.iecr.2c02634)]. Next, we can estimate the amount of ice that would melt into liquid water using the latent heat of fusion.
+The hardware design is based on the thermal loads that need to be dissipated from the liquid exfoliation system. For this build we use a 350 W Kenwood BLP31.D0WG blender. We typically operate the process for $t ≈ 15$ mins to perform a synthesis [[doi:10.1021/acs.iecr.2c02634](https://doi.org/10.1021/acs.iecr.2c02634)]. Next, we can estimate the amount of ice that would melt into liquid water using the latent heat of fusion.
 
 ```
 Heat load: 350 W = 350 J/s = 21 kJ/min
@@ -62,11 +62,14 @@ Latent heat of fusion = 334 kJ/kg
 21kJ/min / 334kJ/kg = 0.063 kg/min
 1260kJ/h / 334kJ/kg = 3.77 kg/h
 ```
-Which is ≈ 1 kg of ice melted in 15 mins. This is a basic starting point for sizing the cooling jacket. For this application, the design must be capable of holding 1 kg of ice around the vessel at a minimum. Ideally, it should be made bigger than this to accommodate the assumptions that have been made, as well as factoring in any future requirements such as longer process times.
+Which shows that ≈ 1 kg of ice can melt in 15 mins. This is a basic starting point for sizing the cooling jacket. For this application, the design must be capable of holding 1 kg of ice around the vessel at a minimum. Ideally, it should be made bigger than this to accommodate the simplified assumptions that have been made, secondary heat loss/gain, as well as factoring in any future requirements such as longer process times.
 
-Adding ice cubes to the cooling jacket leaves air gaps that have a negligible contribution to the heat transfer from the vessel. Recirculating chilled water (e.g., $T$ ≈ 1°C) would also promote heat transfer from the vessel and replace the insulative air voids with flowing coolant (see previous schematic). If we fill the jacket with an additional 1 L of chilled water, the sensible heating contribution assuming a 10 degree temperature rise can be calculated as:
+Adding ice cubes to the cooling jacket leaves air gaps that have a negligible contribution to the heat transfer from the vessel. The complete surface of the heated process vessel also won't be in direct contact with the ice due to these gaps. Filling and recirculating chilled water (e.g., $T$ ≈ 1°C) can remove these insulative air gaps with a liquid coolant and promote uniform cooling over the entire vessel surface (see previous schematic). If the jacket is filled with an additional 1 L of chilled water, the sensible heating contribution assuming a target temperature rise of 10°C can be calculated as:
 
 ```
+m: mass of chilled water (1kg) + mass of melt water (1kg)
+Cp: specific heat capacity
+DT: temperature rise
 Q_s = m*Cp*DT = 2*4184*10 = 83.7 kJ
 ```
 
