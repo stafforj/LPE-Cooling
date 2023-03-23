@@ -2,9 +2,9 @@
 
 ### Operating Principles
 
-Liquid exfoliation processes, and many other mixing/formulation operations, impart high shear rates ($\dot{\gamma}$) on precursor materials dispersed in solvents. This action can generate heat through viscous heating of the fluid ($\dot{Q}$). A schematic of a liquid exfoliation process that uses a rapidly rotating impeller inside a closed vessel is shown in the schematic below. When the vessel is allowed to cool naturally in air, the amount of heat that can be dissipated from the system is limited by passive heat transfer modes from the external surface of the vessel to the ambient surroundings (natural convection & radiation, $Q_{nc}''$). This can result in uncontrollable and high product temperatures that can affect the mixing process if there is a sensitivity to temperature, and/or impact the reliability of the exfoliation system itself.
+Liquid exfoliation processes, and many other mixing/formulation operations, impart high shear rates ($\dot{\gamma}$) on precursor materials dispersed in solvents. This action can generate heat through viscous heating of the fluid ($\dot{Q}$). A schematic of a liquid exfoliation process that uses a rapidly rotating impeller inside a closed vessel filled with solvent and precursor materials is shown in the schematic below. When the vessel is allowed to cool naturally in air, the amount of heat that can be dissipated from the system is limited by passive heat transfer modes from the external surface of the vessel to the ambient surroundings (natural convection & radiation, $Q_{nc}''$). This can result in uncontrollable and high product temperatures that can affect the mixing process if there is a sensitivity to temperature, and/or impact the reliability of the exfoliation system itself.
 
-The aim of this build is to provide a low-cost approach that can cool a kitchen blender vessel during the liquid exfoliation of nanomaterials. The operating principle of the cooling system is illustrated on the right schematic below. A cooling jacket surrounds the process vessel. The internal space is filled with ice cubes and chilled water which removes thermal energy from the process vessel using two heat transfer modes - the latent heat of fusion from a phase change of ice ($Q_{pc}''$) and the sensible heating of liquid water that is enhanced by coolant recirculation ($Q_{cv}''$).
+The aim of this build is to provide a low-cost approach that can cool a kitchen blender vessel during the liquid exfoliation of nanomaterials. The operating principle of the cooling system is illustrated on the right in the schematic below. A cooling jacket surrounds the process vessel. The internal space is filled with ice cubes and chilled water which removes thermal energy from the process vessel using two heat transfer modes - the latent heat of fusion from a phase change of ice ($Q_{pc}''$) and the sensible heating of liquid water that is enhanced by coolant recirculation ($Q_{cv}''$).
 
 This build can be combined with the following repositories to create a standalone, low-cost scientific apparatus with speed and temperature control: 
 
@@ -16,7 +16,7 @@ This build can be combined with the following repositories to create a standalon
 
 ## Bill of Materials
 
-The BoM is split into the main components for the cooling system and additional components that are optional. These additional parts facilitate coolant recirculation, or if using an external chiller to provide the cooling function. The optional components listed below add greater cost to the build (relative to the main component costs). This cost could be reduced by moving to other types of fittings and tubing (e.g., brass fittings and copper tubing).
+The BoM is split into the main components for the cooling system and additional components that are optional. These additional parts facilitate coolant recirculation, or if using an external chiller to provide the cooling function instead of ice. The optional components listed below add greater cost to the build (relative to the main component costs). This cost can be reduced by moving to other types of fittings and tubing (e.g., brass fittings and copper tubing).
 
 
 ### Main items
@@ -62,9 +62,9 @@ Latent heat of fusion = 334 kJ/kg
 21kJ/min / 334kJ/kg = 0.063 kg/min
 1260kJ/h / 334kJ/kg = 3.77 kg/h
 ```
-Which shows that ≈ 1 kg of ice can melt in 15 mins. This is a basic starting point for sizing the cooling jacket. For this application, the design must be capable of holding 1 kg of ice around the vessel at a minimum. Ideally, it should be made bigger than this to accommodate the simplified assumptions that have been made, secondary heat loss/gain, as well as factoring in any future requirements such as longer process times.
+Which shows that ≈ 1 kg of ice can melt in 15 mins. This is a basic starting point for sizing the cooling jacket. For this application, the design must be capable of holding 1 kg of ice around the vessel at a minimum. Ideally, it should be made bigger than this to accommodate the simplified assumptions that have been made, secondary heat loss/gain, as well as accounting for any future requirements such as longer process times.
 
-Adding ice cubes to the cooling jacket leaves air gaps that have a negligible contribution to the heat transfer from the vessel. The complete surface of the heated process vessel also won't be in direct contact with the ice due to these gaps. Filling and recirculating chilled water (e.g., $T$ ≈ 1°C) can remove these insulative air gaps with a liquid coolant and promote uniform cooling over the entire vessel surface (see previous schematic). If the jacket is filled with an additional 1 L of chilled water, the sensible heating contribution assuming a target temperature rise of 10°C can be calculated as:
+Adding ice cubes to the cooling jacket leaves air gaps that have a negligible contribution to the heat transfer from the vessel. The complete surface of the heated process vessel also won't be in direct contact with the ice due to these voids. Filling and recirculating chilled water (e.g., $T$ ≈ 1°C) can remove these insulative air gaps with a liquid coolant and promote uniform cooling over the entire vessel surface (see previous schematic). If the jacket is filled with an additional 1 L of chilled water, the sensible heating contribution assuming a target temperature rise of 10°C can be calculated as:
 
 ```
 m: mass of chilled water (1kg) + mass of melt water (1kg)
@@ -74,9 +74,9 @@ DT: temperature rise
 Q_s = m*Cp*DT = 2*4184*10 = 83.7 kJ
 ```
 
-Although this is a useful cooling contribution, it also illustrates the importance of phase change heat transfer to the cooling process (recall the value for latent heat of fusion above). A jacket size of 2.6 L was chosen to meet the material processing requirements. This provided a volume ≈ 25% more than the 2.1 L that this simple analysis was based on (1kg ice + 1L water).
+Although this is a useful cooling contribution, it also illustrates the importance of phase change heat transfer to the cooling process (recall the value for latent heat of fusion). A jacket size of 2.6 L was chosen to meet the material processing requirements. This provided a volume ≈ 25% greater than the 2.1 L that this simple analysis was based on (1kg ice + 1L water).
 
-Additionally, as the jacket temperature is lower than the ambient air outside ($T_{amb}$ ≈ 20-25°C in the lab), heat is gained by the cooling system. We can calculate this assuming a heat transfer coefficient of $h = 7.5$ W/m $^2$ K, representing an average of the typical range of $h$ for natural convection (~ 5-10 W/m $^2$ K). Taking a cooling jacket diameter of 170 mm and height of 250 mm, the heat gained from the ambient, $Q_g$ is:
+Additionally, as the jacket temperature is lower than the ambient air outside ($T_{amb}$ ≈ 20°C in the lab), heat is gained by the cooling system. We can calculate this assuming a heat transfer coefficient of $h = 7.5$ W/m $^2$ K, representing an average of the typical range of $h$ for natural convection (~ 5-10 W/m $^2$ K). Taking a cooling jacket diameter of 170 mm and height of 250 mm, the heat gained from the ambient, $Q_g$ is:
 
 ```
 h: heat transfer coefficient
@@ -86,21 +86,21 @@ DT: temperature difference between the ambient air and cooling jacket
 Q_g = h*A*DT = 7.5*(2*pi*0.085*0.250)*20 = 20 W
 20 W = 20 J/s =  1.2 kJ/min
 ```
-The final estimates accounting for $Q_s$ and $Q_g$ are:
+This assumes the external surface is not insulated. Wrapping the cooling jacket with insulation can reduce some of the heat gain to the jacket. The final estimates accounting for $Q_s$ and $Q_g$ are:
 
 ```
 Energy from latent heat of fusion: 334 kJ
 Energy from heating 2 kg water by 10°C: 83.7 kJ
-Total energy = 417.7 kJ to heat the ice/water jacket by 10°C
+Total energy = 417.7 kJ to heat the ice/water jacket mixture by 10°C
 
 Heat generation from LPE process: 21 kJ/min
 Ambient heat gain: 1.2 kJ/min
 Total heat rate = 22.2 kJ/min (heat added to ice/water jacket)
 
-Total processing time before the ice melts and coolant temperature reaches 10°C
+Total processing time before the coolant temperature reaches 10°C
 t = 417.7 / 22.2 = 18.8 min
 ```
-This provides sufficient flexibility to enable cooling for $t = 15$ mins. Note that this only considers heat loads during the process "ON" time. If the process is run intermittently (e.g., 1 minute ON, 1 minute OFF, etc.), the ambient heat gain persists during the process OFF time. A revised estimate of the cooling time should be calculated with these considerations.
+This provides sufficient flexibility to facilitate cooling for a target process time of $t = 15$ mins. Note that this only considers heat loads during the process "ON" time. If the process is run intermittently (e.g., 1 minute ON, 1 minute OFF, etc.), the ambient heat gain persists during the process OFF time. A revised estimate of the cooling time should be calculated with these considerations.
 
 
 ### CAD files
@@ -111,7 +111,7 @@ A total of six components from the cooling system are 3D-printed parts. The CAD 
 
 The CAD files were printed using a fused-deposition-modeling (FDM) printer (Ultimaker S3, 0.2mm layer thickness, 20\% infill, no supports). Polyethylene terephthalate glycol (PETG) was selected as the filament material for the printing process due to its ability to tolerate high temperatures (~ 70-80°C), its mechanical properties, printability, and chemical resistance to certain oils and solvents. 
 
-In this build, the components are exposed to water and ice. Although PETG is compatible with water, the layers resulting from the FDM process can create sites for fluid leakages in the finished part. To remove the risk of leaks, the 3D-printed parts were coated with a thin film silicon-based conformal coating (~ 100 microns thickness). To show the visual effect of this coating, a sample part was 3D-printed and masked with tape to partially cover it with a single spray coat (~ 25 microns). The difference between the coated and uncoated PETG surface is shown in the image below. The conformal coating covers the layers and insterstices, sealing the printed part and preventing liquid leaks. This surface coating is mechanically robust. As the surfaces in contact with the coolant and product are a different material than PETG, the chemical resistance of coated parts should be re-assessed for applications where a coolant other than water/ice is used.    
+In this build, the components are exposed to water and ice. Although PETG is compatible with water, the layers resulting from the FDM process can create sites for fluid leakages in the finished part. To remove the risk of leaks, the 3D-printed parts were coated with a thin film silicon-based conformal coating (~ 100 microns thickness). To show the visual effect of this coating, a sample part was 3D-printed and masked with tape to partially cover it with a single spray coat (~ 25 microns). The difference between the coated and uncoated PETG surface is shown in the image below. The conformal coating covers the layers and insterstices, sealing the printed part and preventing liquid leaks. This surface coating is mechanically robust. As the surfaces in contact with the coolant and product are a different material than PETG, the chemical resistance of coated parts should be re-assessed for applications where a coolant other than water/ice is used. The spray coating should be performed in a well-ventilated environment and wearing the appropriate PPE.   
 
 ![Conformal coating](./Images/FDM-conformal-coating.png)
 
@@ -123,7 +123,7 @@ Components `1`, `4` and `9` were bonded to the synthesis vessel (Kenwood BLP31.D
 
 ![Bonding construction](./Images/FDM-vessel-bonding.png)
 
-The complete assembly instructions are discussed in the following sections. The following image shows the barebone assembly of printed parts and synthesis vessel without the cooling jacket installed. The vessel spout was also designed to facilitate product sampling during material processing. Here, you can see a 10 mL pipette inserted into the vessel through the opening in the top part. Product samples can be taken without dissassembling the vessel, or interfering with the thermocouple or cooling system itself. The (optional) coolant recirculation pipes were formed using SS tubing and a pipe bender. These are intended to transport cooling fluid onto and away from the synthesis vessel, improving the convective heat transport from the external walls of the vessel.        
+The complete assembly instructions are discussed in the following sections. The following image shows the barebone assembly of printed parts and synthesis vessel without the cooling jacket installed. The vessel spout was also designed to facilitate product sampling during material processing. Here, you can see a 10 mL pipette inserted into the vessel through the opening in the top part. Product samples can be taken without dissassembling the vessel, or interfering with the thermocouple or cooling system itself. The (optional) coolant recirculation pipes were formed using SS tubing and a pipe bender. These are intended to transport cooling fluid onto and away from the synthesis vessel, improving the convective heat transport from the external walls of the vessel ($Q_{cv}"$).        
 
 ![Barebones without EPDM cylinders](./Images/barebones-with-pipette.png)
 
@@ -140,13 +140,13 @@ The complete assembly instructions are discussed in the following sections. The 
 
 ### Step 5: Precursor filling
 
-5. Insert funnel into the top of the spout (component `4`) and load the precursor materials into the mixing vessel.
+5. Insert a funnel into the top of the spout (component `4`) and load the solvent and precursor materials into the mixing vessel.
 
 ![Fill internal vessel](./Images/pre-test-assembly-precursor-fill.png)
 
 ### Step 6: Ice filling
 
-6. Pack the cooling jacket with ice cubes. Note, that the size of the ice cubes impacts how much can be added. If a maximum ice fill is required, the kitchen blender could also be used to break up large ice cubes into smaller pieces that can pack into the cooling jacket with lower void fraction. 
+6. Pack the cooling jacket with ice cubes. Note: the size of the ice cubes impacts how much can be added. If a maximum ice fill is required (≈ 2 kg), the kitchen blender can also be used to break up large ice cubes into smaller pieces that can pack into the cooling jacket with less voids. 
 
 ![Ice packing](./Images/pre-test-assembly-ice.png)
 
@@ -159,7 +159,7 @@ The complete assembly instructions are discussed in the following sections. The 
 ### Step 8-9: Thermocouple routing 
 
 8. Fit the thermocouple port insert (component `5`) into the top section (component `3`), guiding the thermocouple cable through the slot. Push fully into place as shown in the images below. This component fits through the top section and into the vessel spout.
-9. Insert the thermocouple port plug (component `6`) to close the opening to the vessel spout. 
+9. Insert the thermocouple port plug (component `6`) to close the opening to the vessel spout. This can be removed during product sampling and re-inserted.
 
 ![TC plugging](./Images/pre-test-assembly-route-TC.png)
 
